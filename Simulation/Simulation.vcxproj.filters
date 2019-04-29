@@ -1,22 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Bullshit">
+      <UniqueIdentifier>{17eb55bf-e9d5-4dfb-979c-cfa2cfce1fde}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Units">
+      <UniqueIdentifier>{f0651f06-8e72-4ab1-86d9-f93083013670}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Render">
+      <UniqueIdentifier>{ad33a402-d9e0-4660-a6db-56759a1a9629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d4611d3b-b442-4ea7-88c7-8c978e7f2680}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Units</Filter>
     </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderConsole.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWindow.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Bar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullshit.cpp">
+      <Filter>Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderConsole.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Bar.h" />
   </ItemGroup>
 </Project>
