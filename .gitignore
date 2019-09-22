@@ -4,5 +4,5 @@
 x64/
 Debug/
 Release/
-Window/
+/Window/
 *.user
