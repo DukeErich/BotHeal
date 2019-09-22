@@ -1,0 +1,8 @@
+*.swp
+*~
+.vs/
+x64/
+Debug/
+Release/
+Window/
+*.user
